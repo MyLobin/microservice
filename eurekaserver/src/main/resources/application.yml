@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: eureka-server
+server:
+  port: 2000
+eureka:
+  instance:
+    hostname: localhost
+#    设置不注册自身
+  client:
+    register-with-eureka: false
+    fetch-registry: false
