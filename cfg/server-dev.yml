@@ -2,10 +2,10 @@ spring:
   application:
     name: server
 server:
-  port: 3002
+  port: 3004
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:2000/eureka/
 
-msg: server-3002-dev
+msg: server-3002-dev-3004
