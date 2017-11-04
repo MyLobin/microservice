@@ -37,4 +37,9 @@ public class TestController {
         return from;
     }
 
+    @GetMapping("exception")
+    public String getException(){
+        throw new RuntimeException();
+    }
+
 }
