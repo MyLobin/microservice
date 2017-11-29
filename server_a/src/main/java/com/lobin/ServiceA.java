@@ -1,8 +1,12 @@
 package com.lobin;
 
+import com.google.common.collect.Maps;
+import com.lobin.model.User;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+import java.util.*;
 
 @EnableDiscoveryClient
 @SpringBootApplication
